@@ -1,0 +1,20 @@
+/* .zoom {transition: .2s;}  
+.zoom:hover {transform: scale(1.5)} */
+
+.img {
+    margin: 20px;
+    overflow:hidden;
+    object-fit: cover;
+}
+.zoom {
+    transition: transform .2s; 
+}
+ 
+.zoom:hover {
+    overflow:hidden;
+    object-fit: cover;
+    transform: scale(1.2); 
+  
+    
+    
+}
